@@ -1,0 +1,22 @@
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box {
+    height: 100px;
+    padding: 10px;
+    background-color: blue;
+    background-clip: content-box;
+}
+
+.box:nth-child(even) {
+    background-color: green;
+}
+
+.wrapping-box .box {
+    background-color: red;
+}
+
+.wrapping-box .box:nth-child(even) {
+    background-color: purple;
+}
